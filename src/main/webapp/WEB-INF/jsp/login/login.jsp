@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -53,7 +54,7 @@
                       Login
                     </a>
                     <hr>
-                    <a href="register.html" class="btn btn-google btn-user btn-block">
+                    <a href="<c:url value="cadastrar" />" class="btn btn-google btn-user btn-block">
                       Cadastrar
                     </a>
                   </form>
