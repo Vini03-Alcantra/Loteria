@@ -50,7 +50,7 @@
                       <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Senha">
                     </div>
                     
-                    <a href="index.html" class="btn btn-primary btn-user btn-block">
+                    <a href="<c:url value="dashboard" />" class="btn btn-primary btn-user btn-block">
                       Login
                     </a>
                     <hr>
